@@ -18,7 +18,7 @@
 				<?php query_posts('posts_per_page=1'); ?>
 				  <?php while (have_posts()) : the_post(); ?>
 					<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>	
-					<?php the_excerpt(); ?>
+					<p><?php the_excerpt(); ?></p>
 					<p><a class="btn btn-default" href="<?php the_permalink(); ?>">More &raquo;</a></p>
 				  <?php endwhile;?>
 				  
@@ -26,13 +26,27 @@
 			
 			<div class="col-lg-4">
 				<h2>Portfolio</h2>
-				<p>something 2something 2something 2something 2something 2something 2something 2something 2something 2something 2</p>
-				<p><a class="btn btn-default" href="#">More &raquo;</a></p>
+				
+				<?php $args = array( 'posts_per_page' => 1, 'post_type' => 'page', 'post_parent' => 35 ); 
+					$pages = get_posts($args);
+				
+					foreach($pages as $page)
+					{
+						$title = $page -> post_title;
+						$excerpt = $page -> post_excerpt;
+						$titlelink = '<h3><p><a href="' . get_page_link($page -> ID) . '">' . $title . '</a></p></h3>';
+						echo $titlelink;
+						echo '<p>' . $excerpt . '</p>';
+						
+						$morebutton = '<p><a class="btn btn-default" href="' . get_page_link($page -> ID) . '">More &raquo;</a></p>';
+						echo $morebutton;
+					}
+				?>
 			</div>
 			
 			<div class="col-lg-4">
 				<h2>About me</h2>
-				<p>something 3something 3something 3something 3something 3something 3something 3something 3something 3something 3</p>
+				<p>Static stuff, here I talk a little bit of myself</p>
 				<p><a class="btn btn-default" href="#">More &raquo;</a></p>
 			</div>
 		</div>
