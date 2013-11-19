@@ -1,0 +1,25 @@
+/*
+Theme Name: My Bootstrap Theme
+Theme URI: http://www.lorenzomori.com
+Description: My very first theme with bootstrap.
+Author: Lorenzo Mori
+Author URI: http://www.lorenzomori.com
+Version: 1.0
+Tags: bootstrap
+
+License: whatever
+License URI: whatever
+
+This simple theme was built using the my very first Bootstrap html page
+*/
+
+@import url('bootstrap/css/bootstrap.css'); 
+@import url('bootstrap/css/bootstrap-responsive.css'); 
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
