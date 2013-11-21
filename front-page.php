@@ -13,7 +13,7 @@
 		<div class="row">
 			<div class="col-lg-4">
 			
-				<h2>Blog</h2>
+				<h2><a href = "/blog">Blog</a></h2>
 				
 				<?php query_posts('posts_per_page=1'); ?>
 				  <?php while (have_posts()) : the_post(); ?>
@@ -25,7 +25,8 @@
 			</div>
 			
 			<div class="col-lg-4">
-				<h2>Portfolio</h2>
+				
+				<h2><a href ="/portfolio">Portfolio</a></h2>
 				
 				<?php $args = array( 'posts_per_page' => 1, 'post_type' => 'page', 'post_parent' => 35 ); 
 					$pages = get_posts($args);

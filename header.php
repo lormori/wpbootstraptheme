@@ -7,7 +7,8 @@
     <!--<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">-->
 	<!-- Le styles -->
 	<link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet" media="screen">
-
+	
+	<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="../../assets/js/html5shiv.js"></script>
@@ -51,7 +52,30 @@
 			</ul>
 		  </li>
 		  -->
-		  <?php wp_list_pages(array('title_li' => '', 'exclude' => 292)); ?>
+		  <!-- creating my dropdown menu. the first page of the list is the Portfolio, the others are its children -->
+		  <li class="dropdown">
+			<?php 
+				$page = get_page_link(35);
+				$page_title = get_post(35) -> post_title;
+			?>
+			
+			<a href="<?php echo $page; ?>" class="dropdown-toggle" data-toggle="dropdown"> <?php echo $page_title; ?> <b class="caret"></b></a>
+			<ul class="dropdown-menu">
+			  <?php $args = array( 'posts_per_page' => 100, 'post_type' => 'page', 'post_parent' => 35 ); 
+					$pages = get_posts($args);
+				
+					foreach($pages as $page)
+					{
+						$title = $page -> post_title;
+						$titlelink = '<a href="' . get_page_link($page -> ID) . '">' . $title . '</a>';
+						echo '<li>';
+						echo $titlelink;
+						echo '</li>';
+					}
+				?>
+			</ul>
+		  </li>
+		  <?php wp_list_pages(array('title_li' => '', 'exclude' => 292, 'exclude_tree' => 35)); ?>
 		  
 		</ul>
 	</div><!--/.nav-collapse -->

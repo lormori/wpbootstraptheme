@@ -28,8 +28,6 @@ Template Name: Portfolio Template
 							$morebutton = '<p><a class="btn btn-default" href="' . get_page_link($page -> ID) . '">More &raquo;</a></p>';
 							echo $morebutton;
 							echo '</div>';
-							
-							$count++;
 						}
 					?>
 				<hr>

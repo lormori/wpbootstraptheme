@@ -8,6 +8,7 @@
 
 			<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>	
 			<p><em><?php the_time('l, F jS, Y'); ?></em></p>
+			<p><?php the_content(); ?></p>
 			<hr>
 
 		<?php endwhile; else: ?>
