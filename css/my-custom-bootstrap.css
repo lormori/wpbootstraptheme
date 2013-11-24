@@ -1,16 +1,24 @@
 body {
-	background-color: #dedede;
+	background-color: #F2EBBF;
 }
 
-h1,h2,h3{
+h1,h2,h3 {
 	font-family: 'Oswald', sans-serif;
 	letter-spacing: 2px;
 	text-transform: uppercase;
+	color: #1d1d1d;
 }
 
-p{
+p {
 	font-family: 'Open Sans', sans-serif;
+	font-weight : 400;
 	letter-spacing: 1px;
+}
+
+a,
+a:hover,
+a:focus{
+	color: #1d1d1d;
 }
 
 .navbar {
@@ -29,7 +37,7 @@ p{
 
 .jumbotron {
 	margin: 0px;
-	background-color: #13a89e;
+	background-color: #8CBEB2;
 }
 
 .container {
@@ -59,7 +67,7 @@ p{
 }
 
 .big-divider p {
-	color: #13a89e;
+	color: #8CBEB2;
 }
 
 .containerjumbo{
@@ -85,6 +93,7 @@ p{
 
 .btn-default {
   background-image: none;
+  background-color: #F3B562;
   border-width : 0px;
   border-radius : 0px;
 
@@ -94,24 +103,32 @@ p{
 }
 
 .col-lg-4 {
-	width: 30.33333333%;
-	margin: 1.5%;
 	background-image: none;
-	background-color: #d0d0d0;
+	background-color: #F3B562;
+}
+@media (min-width: 1200px) {
+	.col-lg-4 {
+		width: 30.33333333333333%;
+		margin: 1.5%;
+	}
 }
 
 .red {
-
+	background-color: #F06060;
 }
 
-.yellow {
-
+.blue{
+	background-color: #8CBEB2;
 }
 
-.blue {
-
+.orange{
+	background-color: #F3B562;
 }
 
-.violet {
+.black{
+	background-color: #1c1c1c;
+}
 
+.white{
+	background-color: #F2EBBF;
 }

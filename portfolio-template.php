@@ -23,11 +23,11 @@ Template Name: Portfolio Template
 							$title = $page -> post_title;
 							$excerpt = $page -> post_excerpt;
 							$titlelink = '<h2><p><a href="' . get_page_link($page -> ID) . '">' . $title . '</a></p></h2>';
-							echo '<div class="col-lg-4">';
+							echo '<div class="col-lg-4 blue">';
 							echo $titlelink;
 							echo '<p>' . $excerpt . '</p>';
 							
-							$morebutton = '<p><a class="btn btn-default" href="' . get_page_link($page -> ID) . '">More &raquo;</a></p>';
+							$morebutton = '<p><a class="btn btn-default blue" href="' . get_page_link($page -> ID) . '">More &raquo;</a></p>';
 							echo $morebutton;
 							echo '</div>';
 						}
