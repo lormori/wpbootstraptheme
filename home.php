@@ -4,7 +4,7 @@
 <div class="container">
 
 <div class = "row">
-	<div class="span8">	
+	<div class="span8 blog">	
 		<h1> Blog </h1>
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 

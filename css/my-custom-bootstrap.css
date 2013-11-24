@@ -10,6 +10,7 @@ h1,h2,h3{
 
 p{
 	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 1px;
 }
 
 .navbar {
@@ -36,6 +37,13 @@ p{
 	background-color: inherit;
 	margin-right: 16.5%;
 	margin-left: 16.5%;
+}
+
+.blog {
+	background-image: none;
+	background-color: inherit;
+	margin-right: 20%;
+	margin-left: 20%;
 }
 
 .big-divider {
