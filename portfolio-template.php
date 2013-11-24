@@ -7,6 +7,8 @@ Template Name: Portfolio Template
 <!-- adding some php bitches -->
 <?php get_header(); ?>
 
+<div class="container">
+
 <div class = "row">
 	<div class="span8">	
 	

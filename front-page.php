@@ -3,11 +3,17 @@
 	
 <!-- mega JUMBO MOTHERFUCKERSSSSSS -->
 	<div class="jumbotron">
-		<div class="container">
+		<div class="containerjumbo">
 			<h1>Put motherfucking jumbotron here ;)</h1>
 			<p>Done, let's do a fancy website. enjoy</p>
 		</div>
 	</div>
+	
+	<div class="big-divider">
+		<p>Have a look around.</p>
+	</div>
+	
+	<div class="container">
 	
 	<!-- mega three thumbnailz -->
 		<div class="row">
@@ -35,7 +41,7 @@
 					{
 						$title = $page -> post_title;
 						$excerpt = $page -> post_excerpt;
-						$titlelink = '<h3><p><a href="' . get_page_link($page -> ID) . '">' . $title . '</a></p></h3>';
+						$titlelink = '<h3><a href="' . get_page_link($page -> ID) . '">' . $title . '</a></h3>';
 						echo $titlelink;
 						echo '<p>' . $excerpt . '</p>';
 						
@@ -46,7 +52,7 @@
 			</div>
 			
 			<div class="col-lg-4">
-				<h2>About me</h2>
+				<h2>HELLO</h2>
 				<p>Static stuff, here I talk a little bit of myself</p>
 				<p><a class="btn btn-default" href="#">More &raquo;</a></p>
 			</div>

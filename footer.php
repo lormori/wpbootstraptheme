@@ -4,7 +4,7 @@
 		<p>Lorenzo Mori&trade;</p>
 	</footer>
 	
-	</div> <!-- container from index.php -->
+	</div> <!-- container from header.php -->
     
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <!-- commentin out the js stuff that is not needed (at the moment.. ? 
