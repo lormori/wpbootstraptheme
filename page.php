@@ -7,8 +7,17 @@
 	<div class="span8">	
 	
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-
-			<h1><?php the_title(); ?></h1>
+			<?php
+				if ($post->post_parent == '35') { // if current page is child of page with page ID 35
+					echo '<div class="small-divider portfolio-color">';
+				}
+				else
+				{
+					echo '<div class="small-divider about-color">';
+				}
+			?>
+				<h1><?php the_title(); ?></h1>
+			</div>
 				<hr>
 				<?php the_content(); ?>
 

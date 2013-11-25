@@ -17,7 +17,7 @@
 	
 	<!-- mega three thumbnailz -->
 		<div class="row">
-			<div class="col-lg-4 blue">
+			<div class="col-lg-4 blog-color">
 			
 				<h2><a href = "/blog">Blog</a></h2>
 				
@@ -25,12 +25,12 @@
 				  <?php while (have_posts()) : the_post(); ?>
 					<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>	
 					<p><?php the_excerpt(); ?></p>
-					<p><a class="btn btn-default blue" href="<?php the_permalink(); ?>">More &raquo;</a></p>
+					<p><a class="btn btn-default blog-color" href="<?php the_permalink(); ?>">More &raquo;</a></p>
 				  <?php endwhile;?>
 				  
 			</div>
 			
-			<div class="col-lg-4 red">
+			<div class="col-lg-4 portfolio-color">
 				
 				<h2><a href ="/portfolio">Portfolio</a></h2>
 				
@@ -45,16 +45,16 @@
 						echo $titlelink;
 						echo '<p>' . $excerpt . '</p>';
 						
-						$morebutton = '<p><a class="btn btn-default red" href="' . get_page_link($page -> ID) . '">More &raquo;</a></p>';
+						$morebutton = '<p><a class="btn btn-default portfolio-color" href="' . get_page_link($page -> ID) . '">More &raquo;</a></p>';
 						echo $morebutton;
 					}
 				?>
 			</div>
 			
-			<div class="col-lg-4 orange">
+			<div class="col-lg-4 about-color">
 				<h2>HELLO</h2>
 				<p>Static stuff, here I talk a little bit of myself</p>
-				<p><a class="btn btn-default orange" href="#">More &raquo;</a></p>
+				<p><a class="btn btn-default about-color" href="#">More &raquo;</a></p>
 			</div>
 		</div>
 	

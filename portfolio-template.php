@@ -13,8 +13,9 @@ Template Name: Portfolio Template
 	<div class="span8">	
 	
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-
-			<h1><?php the_title(); ?></h1>
+			<div class="small-divider portfolio-color">
+				<h1><?php the_title(); ?></h1>
+			</div>
 				<hr>
 					<?php $args = array( 'posts_per_page' => 100, 'post_type' => 'page', 'post_parent' => 35 ); 
 						$pages = get_posts($args);
@@ -23,11 +24,11 @@ Template Name: Portfolio Template
 							$title = $page -> post_title;
 							$excerpt = $page -> post_excerpt;
 							$titlelink = '<h2><p><a href="' . get_page_link($page -> ID) . '">' . $title . '</a></p></h2>';
-							echo '<div class="col-lg-4 blue">';
+							echo '<div class="col-lg-4 portfolio-color">';
 							echo $titlelink;
 							echo '<p>' . $excerpt . '</p>';
 							
-							$morebutton = '<p><a class="btn btn-default blue" href="' . get_page_link($page -> ID) . '">More &raquo;</a></p>';
+							$morebutton = '<p><a class="btn btn-default portfolio-color" href="' . get_page_link($page -> ID) . '">More &raquo;</a></p>';
 							echo $morebutton;
 							echo '</div>';
 						}

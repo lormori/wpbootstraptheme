@@ -7,8 +7,9 @@
 	<div class="span8 blog">	
 	
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-
-			<h1><?php the_title(); ?></h1>
+			<div class="small-divider blog-color">
+				<h1><?php the_title(); ?></h1>
+			</div>
 			
 			<?php the_content(); ?>
 			
