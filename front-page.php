@@ -24,6 +24,7 @@
 				<?php query_posts('posts_per_page=1'); ?>
 				  <?php while (have_posts()) : the_post(); ?>
 					<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>	
+					<i class="fa fa-quote-left fa-2x pull-left fa-border"></i>
 					<p><?php the_excerpt(); ?></p>
 					<p><a class="btn btn-default blog-color" href="<?php the_permalink(); ?>">More &raquo;</a></p>
 				  <?php endwhile;?>

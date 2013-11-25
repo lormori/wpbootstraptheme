@@ -16,6 +16,7 @@ This simple theme was built using the my very first Bootstrap html page
 @import url('bootstrap/css/bootstrap.css'); 
 @import url('bootstrap/css/bootstrap-responsive.css'); 
 @import url('bootstrap/css/my-custom-bootstrap.css');
+@import url('font-awesome-4.0.3/css/font-awesome.min.css');
 @import url(http://fonts.googleapis.com/css?family=Oswald);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
