@@ -18,7 +18,9 @@
 	<!-- mega three thumbnailz -->
 		<div class="row">
 			<div class="col-lg-4 blog-color">
-			
+				<p>
+					<h1><center><i class="fa fa-book"></i></center></h1>
+				</p>
 				<h2><a href = "/blog">Blog</a></h2>
 				
 				<?php query_posts('posts_per_page=1'); ?>
@@ -32,7 +34,9 @@
 			</div>
 			
 			<div class="col-lg-4 portfolio-color">
-				
+				<p>
+					<h1><center><i class="fa fa-briefcase"></i></center> </h1>
+				</p>
 				<h2><a href ="/portfolio">Portfolio</a></h2>
 				
 				<?php $args = array( 'posts_per_page' => 1, 'post_type' => 'page', 'post_parent' => 35 ); 
@@ -53,6 +57,9 @@
 			</div>
 			
 			<div class="col-lg-4 about-color">
+				<p>
+					<h1><center><i class="fa fa-info-circle"></i></center></h1>
+				</p>
 				<h2>HELLO</h2>
 				<p>Static stuff, here I talk a little bit of myself</p>
 				<p><a class="btn btn-default about-color" href="#">More &raquo;</a></p>
