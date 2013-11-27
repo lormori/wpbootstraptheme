@@ -19,7 +19,7 @@
   </head>
   <body>
   
-  <nav class="navbar navbar-inverse navbar-default navbar-fixed-top" role="navigation">
+  <div class="navbar navbar-inverse navbar-static-top" role="navigation">
   
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header">
@@ -80,6 +80,6 @@
 		</ul>
 	</div><!--/.nav-collapse -->
 
-  </nav>
+  </div>
   
   

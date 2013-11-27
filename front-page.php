@@ -21,7 +21,8 @@
 				<p>
 					<h1><center><i class="fa fa-book"></i></center></h1>
 				</p>
-				<h2><a href = "/blog">Blog</a></h2>
+				<a href = "/blog"><span class="covering-link"></span></a>
+				<h2>Blog</h2>
 				
 				<?php query_posts('posts_per_page=1'); ?>
 				  <?php while (have_posts()) : the_post(); ?>
@@ -37,7 +38,8 @@
 				<p>
 					<h1><center><i class="fa fa-briefcase"></i></center> </h1>
 				</p>
-				<h2><a href ="/portfolio">Portfolio</a></h2>
+				<a href ="/portfolio"><span class="covering-link"></span></a>
+				<h2>Portfolio</h2>
 				
 				<?php $args = array( 'posts_per_page' => 1, 'post_type' => 'page', 'post_parent' => 35 ); 
 					$pages = get_posts($args);
@@ -60,6 +62,7 @@
 				<p>
 					<h1><center><i class="fa fa-info-circle"></i></center></h1>
 				</p>
+				<a href ="/about"><span class="covering-link"></span></a>
 				<h2>HELLO</h2>
 				<p>Static stuff, here I talk a little bit of myself</p>
 				<p><a class="btn btn-default about-color" href="#">More &raquo;</a></p>
