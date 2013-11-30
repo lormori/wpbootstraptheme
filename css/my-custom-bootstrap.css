@@ -67,6 +67,12 @@ a:focus{
 	font-size : 20px;
 	font-weight: 150;
 }
+.big-divider p {
+	color: #8CBEB2;
+}
+.big-divider h1,h2,h3 {
+	color: #8CBEB2;
+}
 
 .small-divider {
 	background-image: none;
@@ -74,18 +80,11 @@ a:focus{
 	padding-right : 3%;
 	padding-left : 3%;
 	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-bottom: 15px;
 	margin : 0px;
 	margin-bottom: 20px;
 	font-size : 20px;
 	font-weight: 400;
-}
-
-.big-divider p {
-	color: #8CBEB2;
-}
-.big-divider h1,h2,h3 {
-	color: #8CBEB2;
 }
 
 .containerjumbo{
@@ -135,6 +134,9 @@ a:focus{
 }
 .col-homepage-portfolio:hover {
 	opacity: 0.67;
+}
+.col-homepage-portfolio h2 {
+	color: #1d1d1d;
 }
 
 .covering-link{ 

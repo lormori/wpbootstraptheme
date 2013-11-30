@@ -16,24 +16,26 @@ Template Name: Portfolio Template
 			<div class="small-divider portfolio-color">
 				<h1><?php the_title(); ?></h1>
 			</div>
-				<hr>
-					<?php $args = array( 'posts_per_page' => 100, 'post_type' => 'page', 'post_parent' => 35 ); 
-						$pages = get_posts($args);
-						foreach($pages as $page)
-						{
-							$title = $page -> post_title;
-							$excerpt = $page -> post_excerpt;
-							$titlelink = '<h2><p><a href="' . get_page_link($page -> ID) . '">' . $title . '</a></p></h2>';
-							echo '<div class="col-lg-4 col-homepage-portfolio portfolio-color">';
-							echo $titlelink;
-							echo '<p>' . $excerpt . '</p>';
-							
-							$morebutton = '<p><a class="btn btn-default portfolio-color" href="' . get_page_link($page -> ID) . '">More &raquo;</a></p>';
-							echo $morebutton;
-							echo '</div>';
-						}
-					?>
-				<hr>
+				<?php $args = array( 'posts_per_page' => 100, 'post_type' => 'page', 'post_parent' => 35 ); 
+					$pages = get_posts($args);
+					foreach($pages as $page)
+					{
+						if ( has_post_thumbnail() ) {
+							the_post_thumbnail();
+						} 
+						$title = $page -> post_title;
+						$excerpt = $page -> post_excerpt;
+						$titlelink = '<a href="' . get_page_link($page -> ID) . ' "> <span class="covering-link"></span> </a>';
+						echo '<div class="col-lg-4 col-homepage-portfolio portfolio-color">';
+						echo $titlelink;
+						echo '<h2><p>' . $title . '</p></h2>';
+						echo '<p>' . $excerpt . '</p>';
+						
+						$morebutton = '<p><a class="btn btn-default portfolio-color" href="' . get_page_link($page -> ID) . '">More <i class="fa fa-chevron-circle-right"></i></a></p>';
+						echo $morebutton;
+						echo '</div>';
+					}
+				?>
 				
 		<?php endwhile; else: ?>
 			<p><?php _e('Sorry, this page does not exist.'); ?></p>

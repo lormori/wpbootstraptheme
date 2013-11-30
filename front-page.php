@@ -29,7 +29,7 @@
 					<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>	
 					<i class="fa fa-quote-left fa-2x pull-left fa-border"></i>
 					<p><?php the_excerpt(); ?></p>
-					<p><a class="btn btn-default blog-color" href="<?php the_permalink(); ?>">More &raquo;</a></p>
+					<p><a class="btn btn-default blog-color" href="<?php the_permalink(); ?>">More <i class="fa fa-chevron-circle-right"></i></a></p>
 				  <?php endwhile;?>
 				  
 			</div>
@@ -52,7 +52,7 @@
 						echo $titlelink;
 						echo '<p>' . $excerpt . '</p>';
 						
-						$morebutton = '<p><a class="btn btn-default portfolio-color" href="' . get_page_link($page -> ID) . '">More &raquo;</a></p>';
+						$morebutton = '<p><a class="btn btn-default portfolio-color" href="' . get_page_link($page -> ID) . '">More <i class="fa fa-chevron-circle-right"></i></a></p>';
 						echo $morebutton;
 					}
 				?>
@@ -65,7 +65,7 @@
 				<a href ="/about"><span class="covering-link"></span></a>
 				<h2>HELLO</h2>
 				<p>Static stuff, here I talk a little bit of myself</p>
-				<p><a class="btn btn-default about-color" href="#">More &raquo;</a></p>
+				<p><a class="btn btn-default about-color" href="#">More <i class="fa fa-chevron-circle-right"></i></a></p>
 			</div>
 		</div>
 	

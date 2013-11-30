@@ -1,8 +1,6 @@
-	<hr>
 	<!-- mega footer -->
-	
-	
-	</div> <!-- container from header.php -->
+
+	</div> <!-- container from the page that is on top -->
     
 	<footer>
 		<div class="big-divider">
