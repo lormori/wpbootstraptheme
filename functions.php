@@ -18,5 +18,6 @@ if ( function_exists('register_sidebar') )
 	));
 	
 add_post_type_support( 'page', 'excerpt' );
+add_theme_support( 'post-thumbnails' ); 
 
 ?>
