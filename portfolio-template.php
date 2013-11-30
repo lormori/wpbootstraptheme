@@ -24,7 +24,7 @@ Template Name: Portfolio Template
 							$title = $page -> post_title;
 							$excerpt = $page -> post_excerpt;
 							$titlelink = '<h2><p><a href="' . get_page_link($page -> ID) . '">' . $title . '</a></p></h2>';
-							echo '<div class="col-lg-4 portfolio-color">';
+							echo '<div class="col-lg-4 col-homepage-portfolio portfolio-color">';
 							echo $titlelink;
 							echo '<p>' . $excerpt . '</p>';
 							

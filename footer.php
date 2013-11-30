@@ -6,13 +6,30 @@
     
 	<footer>
 		<div class="big-divider">
-			<p>Lorenzo Mori&trade;</p>
-			
-			<p> say what this site is about </p>
-			<p> put a link to home </p>
-			<p> put the Mori japanese character </p>
-			<p> some social icons? github, fb, linkedin? </p>
-			<p> email? </p>
+			<div class="row" style="text-transform: uppercase">
+				
+					<div class="col-lg-4 short">
+						<h2>Lorenzo Mori&trade;</h2>
+						<p> <font size="2">
+							Hello, this is Lorenzo, hope you enjoy your stay on my website. Please have a look around at my portfolio pieces and my blog.
+						</font></p>
+					</div>
+					<div class="col-lg-4 short">
+						<center>
+						<p> <a href="<?php echo site_url(); ?>" style="color:#8CBEB2"><i class="fa fa-home fa-5x"></i></a> </p>
+						<p><font size="11"> 森 </font></p>
+						</center>
+					</div>
+					<div class="col-lg-4 short">
+						<p align="right">
+						<a href="https://github.com/lormori" style="color:#8CBEB2"><i class="fa fa-github fa-3x"></i></a>
+						<a href="http://www.linkedin.com/pub/lorenzo-mori/68/645/291" style="color:#8CBEB2"><i class="fa fa-linkedin fa-3x"></i></a>
+						<br>
+						<a href="mailto:lor.mori@gmail.com" style="color:#8CBEB2"><i class="fa fa-envelope-o fa-3x"></i></a>
+						</p>
+					</div>
+				
+			</div>
 		</div>
 	</footer>
 	

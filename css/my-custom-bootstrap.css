@@ -84,6 +84,9 @@ a:focus{
 .big-divider p {
 	color: #8CBEB2;
 }
+.big-divider h1,h2,h3 {
+	color: #8CBEB2;
+}
 
 .containerjumbo{
 	margin: 50px 0px;
@@ -93,11 +96,7 @@ a:focus{
 	background-color: inherit;
 }
 
-.containerjumbo h1{
-	color: #1d1d1d;
-}
-
-.containerjumbo p{
+.containerjumbo h1, p{
 	color: #1d1d1d;
 }
 
@@ -117,22 +116,24 @@ a:focus{
 	font-weight: 800;
 }
 
-.col-lg-4 {
+.col-homepage-portfolio {
 	background-image: none;
-	background: #F3B562;
-	
+	background: inherit;
+	min-height: 520px;
+    height: auto !important;
+    height: 520px;
 	opacity: 1;
     transition: opacity .25s ease-in-out;
     -moz-transition: opacity .25s ease-in-out;
     -webkit-transition: opacity .25s ease-in-out;
 }
 @media (min-width: 1200px) {
-	.col-lg-4 {
-		width: 30.33333333333333%;
-		margin: 1.5%;
+	.col-homepage-portfolio {
+		width: 32.33333333333333%;
+		margin: 0.5%;
 	}
 }
-.col-lg-4:hover {
+.col-homepage-portfolio:hover {
 	opacity: 0.67;
 }
 

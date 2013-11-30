@@ -17,7 +17,7 @@
 	
 	<!-- mega three thumbnailz -->
 		<div class="row">
-			<div class="col-lg-4 blog-color">
+			<div class="col-lg-4 col-homepage-portfolio blog-color">
 				<p>
 					<h1><center><i class="fa fa-book"></i></center></h1>
 				</p>
@@ -34,7 +34,7 @@
 				  
 			</div>
 			
-			<div class="col-lg-4 portfolio-color">
+			<div class="col-lg-4 col-homepage-portfolio portfolio-color">
 				<p>
 					<h1><center><i class="fa fa-briefcase"></i></center> </h1>
 				</p>
@@ -58,7 +58,7 @@
 				?>
 			</div>
 			
-			<div class="col-lg-4 about-color">
+			<div class="col-lg-4 col-homepage-portfolio about-color">
 				<p>
 					<h1><center><i class="fa fa-info-circle"></i></center></h1>
 				</p>
