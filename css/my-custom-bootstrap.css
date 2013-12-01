@@ -105,17 +105,17 @@ a:focus{
 }
 
 .btn-default {
-  background-image: none;
-  background-color: inherit;
-  border-width : 0px;
-  border-radius : 0px;
+	background-image: none;
+	background-color: inherit;
+	border-width : 0px;
+	border-radius : 0px;
 
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-weight: 800;
 }
 
-.col-homepage-portfolio {
+.col-homepage {
 	background-image: none;
 	background: inherit;
 	min-height: 520px;
@@ -127,16 +127,61 @@ a:focus{
     -webkit-transition: opacity .25s ease-in-out;
 }
 @media (min-width: 1200px) {
-	.col-homepage-portfolio {
+	.col-homepage {
 		width: 32.33333333333333%;
 		margin: 0.5%;
 	}
 }
-.col-homepage-portfolio:hover {
+.col-homepage:hover {
 	opacity: 0.67;
 }
-.col-homepage-portfolio h2 {
+.col-homepage h2 {
 	color: #1d1d1d;
+}
+
+.col-portfolio {
+	background-image: none;
+	background: inherit;
+	min-height: 300px;
+    height: auto !important;
+	height: 300px;
+	margin: 0.5%;
+	padding: 0px;
+}
+@media (min-width: 768px) {
+	.col-portfolio {
+		width: 32.33333333333333%;
+		margin: 0.5%;
+	}
+}
+.col-portfolio h2 {
+	position: absolute;
+    color: black;
+	text-align:center;
+	width: 100%;
+	top:20%;
+    opacity:0;
+	transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+.col-portfolio:hover h2 {
+    opacity:1;
+}
+.col-portfolio img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	opacity:1;
+	transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+.col-portfolio:hover img {
+    opacity:0.5;
 }
 
 .covering-link{ 
@@ -173,3 +218,4 @@ a:focus{
 .white{
 	background-color: #F2EBBF;
 }
+

@@ -18,6 +18,17 @@ if ( function_exists('register_sidebar') )
 	));
 	
 add_post_type_support( 'page', 'excerpt' );
-add_theme_support( 'post-thumbnails' ); 
 
+if ( function_exists( 'add_theme_support' ) ) {
+	add_theme_support( 'post-thumbnails' );
+	set_post_thumbnail_size( 150, 150 );
+}
+
+
+function theme_setup() {
+  add_image_size( 'theme-custom-size', 100, 100, true );
+  add_image_size( 'category-thumb', 400, 9999, true ); 
+  add_image_size( 'portfolio-thumb', 300, 500, true ); 
+}
+add_action( 'after_setup_theme', 'theme_setup' );
 ?>
