@@ -52,8 +52,12 @@ a:focus{
 .blog {
 	background-image: none;
 	background-color: inherit;
-	margin-right: 20%;
-	margin-left: 20%;
+}
+@media (min-width: 768px) {
+	.blog {
+		margin-right: 20%;
+		margin-left: 20%;
+	}
 }
 
 .big-divider {

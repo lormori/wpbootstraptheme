@@ -6,7 +6,7 @@
 <div class="container">
 
 <div class = "row">
-	<div class="span8 blog">
+	<div class="blog">
 		<div class="small-divider blog-color">
 			<h1> Blog </h1>
 		</div>
