@@ -52,11 +52,24 @@ a:focus{
 .blog {
 	background-image: none;
 	background-color: inherit;
+	margin-left: auto ;
+	margin-right: auto ;
 }
 @media (min-width: 768px) {
 	.blog {
-		margin-right: 20%;
-		margin-left: 20%;
+		width: 60%;
+	}
+}
+
+.sidebar {
+	margin-left: auto ;
+	margin-right: auto ;
+}
+
+@media (min-width: 768px) {
+	.sidebar {
+		float: right;
+		width: 20%;
 	}
 }
 
