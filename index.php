@@ -25,7 +25,7 @@
 			</div>
 
 			<p><?php the_time('l, F jS, Y'); ?></p>
-			<?php the_content(); ?>
+			<p><?php the_content(); ?></p>
 
 			<?php endwhile; else: ?>
 				<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>

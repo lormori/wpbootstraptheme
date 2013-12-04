@@ -2,6 +2,7 @@
 <?php get_header(); ?>
 	
 <!-- mega JUMBO MOTHERFUCKERSSSSSS -->
+<!-- and yes, I tried to put a jumbotron here but it sucked a lot and I decided to remove it and go for a plain flat "mobile/app" design for the website... enjoy fuckerss
 	<div class="jumbotron">
 		<div class="containerjumbo">
 			<h1>Put motherfucking jumbotron here ;)</h1>
@@ -12,12 +13,12 @@
 	<div class="big-divider">
 		<p>Have a look around.</p>
 	</div>
-	
+	-->
 	<div class="container">
 	
 	<!-- mega three thumbnailz -->
 		<div class="row">
-			<div class="col-lg-4 col-homepage blog-color">
+			<div class="col-lg-6 col-homepage blog-color">
 				<p>
 					<h1><center><i class="fa fa-book"></i></center></h1>
 				</p>
@@ -27,14 +28,14 @@
 				<?php query_posts('posts_per_page=1'); ?>
 				  <?php while (have_posts()) : the_post(); ?>
 					<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>	
-					<i class="fa fa-quote-left fa-2x pull-left fa-border"></i>
-					<p><?php the_excerpt(); ?></p>
-					<p><a class="btn btn-default blog-color" href="<?php the_permalink(); ?>">More <i class="fa fa-chevron-circle-right"></i></a></p>
+					<p><i class="fa fa-quote-left fa-2x pull-left fa-border"></i>
+					<?php the_excerpt(); ?></p>
+					<button class="btn btn-default"><p>More <i class="fa fa-chevron-circle-right"></i></p></button>
 				  <?php endwhile;?>
 				  
 			</div>
 			
-			<div class="col-lg-4 col-homepage portfolio-color">
+			<div class="col-lg-6 col-homepage portfolio-color">
 				<p>
 					<h1><center><i class="fa fa-briefcase"></i></center> </h1>
 				</p>
@@ -52,20 +53,20 @@
 						echo $titlelink;
 						echo '<p>' . $excerpt . '</p>';
 						
-						$morebutton = '<p><a class="btn btn-default portfolio-color" href="' . get_page_link($page -> ID) . '">More <i class="fa fa-chevron-circle-right"></i></a></p>';
+						$morebutton = '<button class="btn btn-default"><p>More <i class="fa fa-chevron-circle-right"></i></p></button>';
 						echo $morebutton;
 					}
 				?>
 			</div>
 			
-			<div class="col-lg-4 col-homepage about-color">
+			<div class="col-lg-6 col-homepage about-color">
 				<p>
 					<h1><center><i class="fa fa-info-circle"></i></center></h1>
 				</p>
 				<a href ="/about"><span class="covering-link"></span></a>
 				<h2>HELLO</h2>
 				<p>Static stuff, here I talk a little bit of myself</p>
-				<p><a class="btn btn-default about-color" href="#">More <i class="fa fa-chevron-circle-right"></i></a></p>
+				<button class="btn btn-default"><p>More <i class="fa fa-chevron-circle-right"></i></p></button>
 			</div>
 		</div>
 	

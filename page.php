@@ -7,7 +7,7 @@
 	
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 			<?php
-				if ($post->post_parent == '35') { // if current page is child of page with page ID 35
+				if ($post->post_parent == '35') { // if current page is child of page with page ID 35 (a portfolio piece)
 					echo '<div class="small-divider portfolio-color">';
 				}
 				else
@@ -18,8 +18,9 @@
 				<h1><?php the_title(); ?></h1>
 			</div>
 				<hr>
-				<?php the_content(); ?>
-
+				<div class="page">
+					<p><?php the_content(); ?></p>
+				</div>
 		<?php endwhile; else: ?>
 			<p><?php _e('Sorry, this page does not exist.'); ?></p>
 		<?php endif; ?>
