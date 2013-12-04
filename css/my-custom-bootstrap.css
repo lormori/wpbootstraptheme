@@ -169,9 +169,10 @@ a:focus{
 .col-homepage {
 	background-image: none;
 	background: inherit;
-	min-height: 520px;
+	/*min-height: 520px;
     height: auto !important;
-    height: 520px;
+    height: 520px;*/
+	padding: 0;
 	margin: 0%;
 	opacity: 1;
     transition: opacity .25s ease-in-out;
@@ -180,6 +181,21 @@ a:focus{
 }
 .col-homepage:hover {
 	opacity: 0.67;
+}
+.col-homepage img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+}
+.col-homepage h2
+{
+	position: absolute;
+	text-align:center;
+	width: 100%;
+	top:17%;
 }
 
 .col-portfolio {
@@ -245,6 +261,10 @@ a:focus{
 
 .about-color{
 	background-color: #BD53CD;
+}
+
+.welcome-color{
+	background-color: #E85778;
 }
 
 .black {

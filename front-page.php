@@ -18,31 +18,19 @@
 	
 	<!-- mega three thumbnailz -->
 		<div class="row">
-			<div class="col-lg-6 col-homepage blog-color">
-				<p>
-					<h1><center><i class="fa fa-book"></i></center></h1>
-				</p>
-				<a href = "/blog"><span class="covering-link"></span></a>
-				<h2>Blog</h2>
+			<div class="col-sm-6 col-homepage welcome-color">
 				
-				<?php query_posts('posts_per_page=1'); ?>
-				  <?php while (have_posts()) : the_post(); ?>
-					<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>	
-					<p><i class="fa fa-quote-left fa-2x pull-left fa-border"></i>
-					<?php the_excerpt(); ?></p>
-					<button class="btn btn-default"><p>More <i class="fa fa-chevron-circle-right"></i></p></button>
-				  <?php endwhile;?>
-				  
+				<span class="covering-link"></span>
+				<h2>WELCOME</h2>
+				<?php echo wp_get_attachment_image( 331, 'full' ); ?>
 			</div>
-			
-			<div class="col-lg-6 col-homepage portfolio-color">
-				<p>
+		
+			<div class="col-sm-6 col-homepage portfolio-color">
+				<!--<p>
 					<h1><center><i class="fa fa-briefcase"></i></center> </h1>
-				</p>
-				<a href ="/portfolio"><span class="covering-link"></span></a>
-				<h2>Portfolio</h2>
+				</p>-->
 				
-				<?php $args = array( 'posts_per_page' => 1, 'post_type' => 'page', 'post_parent' => 35 ); 
+				<?php /*$args = array( 'posts_per_page' => 1, 'post_type' => 'page', 'post_parent' => 35 ); 
 					$pages = get_posts($args);
 				
 					foreach($pages as $page)
@@ -55,18 +43,43 @@
 						
 						$morebutton = '<button class="btn btn-default"><p>More <i class="fa fa-chevron-circle-right"></i></p></button>';
 						echo $morebutton;
-					}
+					}*/
 				?>
+				<!-- new layout -->
+				<a href ="/portfolio"><span class="covering-link"></span></a>
+				<h2>Portfolio</h2>
+				<?php echo wp_get_attachment_image( 330, 'full' ); ?> 
 			</div>
 			
-			<div class="col-lg-6 col-homepage about-color">
-				<p>
+			<div class="col-sm-6 col-homepage blog-color">
+				<!--<p>
+					<h1><center><i class="fa fa-book"></i></center></h1>
+				</p>
+				<?php //query_posts('posts_per_page=1'); ?>
+				  <?php //while (have_posts()) : the_post(); ?>
+					<h3><a href="<?php //the_permalink(); ?>"><?php //the_title(); ?></a></h3>	
+					<p><i class="fa fa-quote-left fa-2x pull-left fa-border"></i>
+					<?php //the_excerpt(); ?></p>
+					<button class="btn btn-default"><p>More <i class="fa fa-chevron-circle-right"></i></p></button>
+				  <?php //endwhile;?>-->
+				  
+				<a href = "/blog"><span class="covering-link"></span></a>
+				<h2>Blog</h2>
+				<?php echo wp_get_attachment_image( 329, 'full' ); ?> 
+				  
+			</div>
+			
+			<div class="col-sm-6 col-homepage about-color">
+				<!--<p>
 					<h1><center><i class="fa fa-info-circle"></i></center></h1>
 				</p>
-				<a href ="/about"><span class="covering-link"></span></a>
 				<h2>HELLO</h2>
 				<p>Static stuff, here I talk a little bit of myself</p>
-				<button class="btn btn-default"><p>More <i class="fa fa-chevron-circle-right"></i></p></button>
+				<button class="btn btn-default"><p>More <i class="fa fa-chevron-circle-right"></i></p></button>-->
+				<!-- new layout-->
+				<a href ="/about"><span class="covering-link"></span></a>
+				<h2>HELLO</h2>
+				<?php echo wp_get_attachment_image( 328, 'full' ); ?>
 			</div>
 		</div>
 	
