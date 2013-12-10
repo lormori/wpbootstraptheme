@@ -251,20 +251,28 @@ a:focus{
   background-image: none;
 }
 
-.portfolio-color {
+.blue {
 	background-color: #6239F7;
 }
 
-.blog-color{
+.green {
 	background-color: #4DD487;
 }
 
-.about-color{
+.purple {
 	background-color: #BD53CD;
 }
 
-.welcome-color{
+.red {
 	background-color: #E85778;
+}
+
+.light-blue {
+	background-color: #06B3DB;
+}
+
+.yellow {
+	background-color: #E3B63F;
 }
 
 .black {

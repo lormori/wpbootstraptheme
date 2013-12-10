@@ -22,7 +22,7 @@
 	<div class="blog">
 	
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-			<div class="small-divider blog-color">
+			<div class="small-divider green">
 				<h1><?php the_title(); ?></h1>
 			</div>
 			

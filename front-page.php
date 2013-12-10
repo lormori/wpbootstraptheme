@@ -18,14 +18,14 @@
 	
 	<!-- mega three thumbnailz -->
 		<div class="row">
-			<div class="col-sm-6 col-homepage welcome-color">
+			<div class="col-sm-6 col-homepage red">
 				
 				<span class="covering-link"></span>
 				<h2>WELCOME</h2>
 				<?php echo wp_get_attachment_image( 331, 'full' ); ?>
 			</div>
 		
-			<div class="col-sm-6 col-homepage portfolio-color">
+			<div class="col-sm-6 col-homepage blue">
 				<!--<p>
 					<h1><center><i class="fa fa-briefcase"></i></center> </h1>
 				</p>-->
@@ -51,7 +51,7 @@
 				<?php echo wp_get_attachment_image( 330, 'full' ); ?> 
 			</div>
 			
-			<div class="col-sm-6 col-homepage blog-color">
+			<div class="col-sm-6 col-homepage green">
 				<!--<p>
 					<h1><center><i class="fa fa-book"></i></center></h1>
 				</p>
@@ -69,7 +69,7 @@
 				  
 			</div>
 			
-			<div class="col-sm-6 col-homepage about-color">
+			<div class="col-sm-6 col-homepage purple">
 				<!--<p>
 					<h1><center><i class="fa fa-info-circle"></i></center></h1>
 				</p>
