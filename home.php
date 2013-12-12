@@ -36,7 +36,7 @@
 				// that goes in cycle and repeat itself every 6 posts. Every post will get one color
 				
 				// define main class
-				echo '<div class="col-sm-6 ';
+				echo '<div class="col-sm-6 blog-entry ';
 				
 				// define color
 				if(($count % 6) == 0)
@@ -67,19 +67,18 @@
 				echo '">';
 				$count++;
 			?>
-			<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>	
-			<p><em>
-				<?php 
-				
-				the_time('jS '); 
-				
-				the_time('M ');
-				
-				the_time('y');
-				
-				?>
-			</em></p>
-			<p><?php //the_content(); ?></p>
+			<!-- transparent background to get squared shaped. NB commented out at the moment -->
+			<?php //echo wp_get_attachment_image( 333, 'full' ); ?>
+			
+			<a href="<?php the_permalink(); ?>"><span class="covering-link"></span></a>
+			<p style="font-family: 'Oswald', sans-serif;">
+			<span class="blog-date"><?php the_time('j'); ?></span>
+			<span style="font-size: 200%"><?php the_time('S'); ?></span>
+			<br>
+			<span style="font-size: 200%"><?php the_time('M \'y'); ?></span>
+			<br>
+			<?php the_title(); ?>
+			</p>
 			<!-- end of div from the if statement -->
 			</div>
 			
