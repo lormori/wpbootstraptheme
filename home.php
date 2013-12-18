@@ -71,11 +71,11 @@
 			<?php //echo wp_get_attachment_image( 333, 'full' ); ?>
 			
 			<a href="<?php the_permalink(); ?>"><span class="covering-link"></span></a>
-			<p style="font-family: 'Oswald', sans-serif;">
+			<p>
 			<span class="blog-date"><?php the_time('j'); ?></span>
-			<span style="font-size: 200%"><?php the_time('S'); ?></span>
+			<span><?php the_time('S'); ?></span>
 			<br>
-			<span style="font-size: 200%"><?php the_time('M \'y'); ?></span>
+			<span><?php the_time('M \'y'); ?></span>
 			<br>
 			<?php the_title(); ?>
 			</p>
