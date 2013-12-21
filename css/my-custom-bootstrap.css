@@ -104,6 +104,10 @@ a:focus{
 		width: 60%;
 	}
 }
+.blog img {
+	height: auto;
+	max-width: 100%;
+}
 
 .blog-date {
 		font-size: 300%;
