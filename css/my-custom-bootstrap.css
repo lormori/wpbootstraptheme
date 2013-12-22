@@ -1,5 +1,11 @@
 body {
 	background-color: #EAFFFF;
+
+	background: url(../../images/blur1.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 h1,h2,h3 {
@@ -27,18 +33,24 @@ a:focus{
 	color: #FFFFFF;
 }
 
-/* BIG DIVIDER TEXT COLORS */
-.big-divider p {
-	color: #8CBEB2;
+/* FOOTER DIVIDER TEXT COLORS */
+.footer-divider p {
+	color: #999999;
 }
-.big-divider h1 {
-	color: #8CBEB2;
+.footer-divider a {
+	color: #999999;
 }
-.big-divider h2 {
-	color: #8CBEB2;
+.footer-divider a:hover {
+	color: #ffffff;
 }
-.big-divider h3 {
-	color: #8CBEB2;
+.footer-divider h1 {
+	color: #999999;
+}
+.footer-divider h2 {
+	color: #999999;
+}
+.footer-divider h3 {
+	color: #999999;
 }
 
 /* BLOG TEXT COLORS */
@@ -71,8 +83,9 @@ a:focus{
 	border-width: 0px;
 	border-radius: 0px;
 	background-color: #1d1d1d;
-	padding-right: 16.5%;
-	padding-left: 16.5%;
+	margin-right: 16.5%;
+	margin-left: 16.5%;
+	margin-bottom: 20px;
 	padding-top: 25px;
 	padding-bottom: 25px;
 	
@@ -161,16 +174,15 @@ a:focus{
 	}
 }
 
-.big-divider {
+.footer-divider {
 	background-image: none;
 	background-color: #E0EDD7;
-	padding-right : 18%;
-	padding-left : 18%;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	margin : 0px;
-	font-size : 20px;
-	font-weight: 150;
+	margin-right : 16.5%;
+	margin-left : 16.5%;
+	margin-top: 20px;
+	padding:50px 20px;
+	font-size: 20px;
+	font-weight: 600;
 }
 
 .small-divider {

@@ -3,7 +3,7 @@
 	</div> <!-- container from the page that is on top -->
     
 	<footer>
-		<div class="big-divider black">
+		<div class="footer-divider black">
 			<div class="row" style="text-transform: uppercase">
 				
 					<div class="col-lg-4">
@@ -14,16 +14,16 @@
 					</div>
 					<div class="col-lg-4">
 						<center>
-						<p> <a href="<?php echo site_url(); ?>" style="color:#8CBEB2"><i class="fa fa-home fa-5x"></i></a> </p>
+						<p> <a href="<?php echo site_url(); ?>"><i class="fa fa-home fa-5x"></i></a> </p>
 						<p><font size="11"> 森 </font></p>
 						</center>
 					</div>
 					<div class="col-lg-4">
 						<p align="right">
-						<a href="https://github.com/lormori" style="color:#8CBEB2"><i class="fa fa-github fa-3x"></i></a>
-						<a href="http://www.linkedin.com/pub/lorenzo-mori/68/645/291" style="color:#8CBEB2"><i class="fa fa-linkedin fa-3x"></i></a>
+						<a href="https://github.com/lormori"><i class="fa fa-github fa-3x"></i></a>
+						<a href="http://www.linkedin.com/pub/lorenzo-mori/68/645/291"><i class="fa fa-linkedin fa-3x"></i></a>
 						<br>
-						<a href="mailto:lor.mori@gmail.com" style="color:#8CBEB2"><i class="fa fa-envelope-o fa-3x"></i></a>
+						<a href="mailto:lor.mori@gmail.com"><i class="fa fa-envelope-o fa-3x"></i></a>
 						</p>
 					</div>
 				
@@ -38,5 +38,6 @@
     <!-- <script src="bootstrap/js/bootstrap.min.js"></script> -->
 	
 	<?php wp_footer(); ?>
+	
   </body>
  </html>

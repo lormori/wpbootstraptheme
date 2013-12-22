@@ -81,5 +81,3 @@
 	</div><!--/.nav-collapse -->
 
   </div>
-  
-  

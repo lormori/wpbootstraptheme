@@ -9,10 +9,6 @@
 			<p>Done, let's do a fancy website. enjoy</p>
 		</div>
 	</div>
-	
-	<div class="big-divider">
-		<p>Have a look around.</p>
-	</div>
 	-->
 	<div class="container">
 	
