@@ -16,11 +16,10 @@
 				}
 			?>
 				<h1><?php the_title(); ?></h1>
+			</div>				
+			<div class="page">
+				<p><?php the_content(); ?></p>
 			</div>
-				<hr>
-				<div class="page">
-					<p><?php the_content(); ?></p>
-				</div>
 		<?php endwhile; else: ?>
 			<p><?php _e('Sorry, this page does not exist.'); ?></p>
 		<?php endif; ?>

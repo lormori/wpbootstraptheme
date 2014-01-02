@@ -77,6 +77,13 @@ a:focus{
 .page a,a:hover,a:focus {
 	color: #1d1d1d;
 }
+.page {
+	background-color: #EAFFFF;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
 
 .navbar {
 	border-style: solid;
@@ -120,6 +127,14 @@ a:focus{
 .blog img {
 	height: auto;
 	max-width: 100%;
+}
+
+.blog-content {
+	background-color: #EAFFFF;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 .blog-date {
