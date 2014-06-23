@@ -59,6 +59,7 @@ a:focus{
 }
 .blog a,a:hover,a:focus {
 	color: #1d1d1d;
+	font-weight: bolder;
 }
 .sidebar p{
 	color: #1d1d1d;
@@ -76,6 +77,7 @@ a:focus{
 }
 .page a,a:hover,a:focus {
 	color: #1d1d1d;
+	font-weight: bolder;
 }
 .page {
 	background-color: #EAFFFF;
@@ -269,7 +271,6 @@ a:focus{
 .col-portfolio {
 	background-image: none;
 	background: inherit;
-	min-height: 300px;
 	margin: 0%;
     height: auto !important;
 	height: 300px;
