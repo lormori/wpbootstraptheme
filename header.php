@@ -77,6 +77,16 @@
 		  </li>
 		  <?php wp_list_pages(array('title_li' => '', 'exclude' => 292, 'exclude_tree' => 35)); ?>
 		  
+		  <li>
+			<a href="https://github.com/lormori"><i class="fa fa-github fa-2x"></i></a>
+		  </li>
+		  <li>
+			<a href="http://www.linkedin.com/pub/lorenzo-mori/68/645/291"><i class="fa fa-linkedin fa-2x"></i></a>
+		  </li>
+		  <li>
+			<a href="mailto:lor.mori@gmail.com"><i class="fa fa-envelope-o fa-2x"></i></a>
+		  </li>
+		  
 		</ul>
 	</div><!--/.nav-collapse -->
 

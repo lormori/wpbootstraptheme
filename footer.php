@@ -7,23 +7,22 @@
 			<div class="row" style="text-transform: uppercase">
 				
 					<div class="col-lg-4">
-						<h2>Lorenzo Mori&trade;</h2>
-						<p> <font size="2">
+						<p><font size="3">Lorenzo Mori&trade;</font></p>
+						<p> <font size="1">
 							Hello, this is Lorenzo, hope you enjoy your stay on my website. Please have a look around at my portfolio pieces and my blog.
 						</font></p>
 					</div>
 					<div class="col-lg-4">
 						<center>
-						<p> <a href="<?php echo site_url(); ?>"><i class="fa fa-home fa-5x"></i></a> </p>
-						<p><font size="11"> 森 </font></p>
+						<p><font size="5"> 森 </font></p>
 						</center>
 					</div>
 					<div class="col-lg-4">
-						<p align="right">
-						<a href="https://github.com/lormori"><i class="fa fa-github fa-3x"></i></a>
-						<a href="http://www.linkedin.com/pub/lorenzo-mori/68/645/291"><i class="fa fa-linkedin fa-3x"></i></a>
-						<br>
-						<a href="mailto:lor.mori@gmail.com"><i class="fa fa-envelope-o fa-3x"></i></a>
+						<p align="center">
+						<a href="https://github.com/lormori"><i class="fa fa-github fa-2x"></i></a>
+						<a href="http://www.linkedin.com/pub/lorenzo-mori/68/645/291"><i class="fa fa-linkedin fa-2x"></i></a>
+						<a href="mailto:lor.mori@gmail.com"><i class="fa fa-envelope-o fa-2x"></i></a>
+						<a href="<?php echo site_url(); ?>"><i class="fa fa-home fa-2x"></i></a>
 						</p>
 					</div>
 				

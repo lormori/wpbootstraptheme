@@ -123,7 +123,8 @@ a:focus{
 }
 @media (min-width: 768px) {
 	.blog {
-		width: 60%;
+		width: 78%; /* leave a bit of margin in between the post and the side bar*/
+		float: right;
 	}
 }
 .blog img {
@@ -182,11 +183,12 @@ a:focus{
 .sidebar {
 	margin-left: auto ;
 	margin-right: auto ;
+	padding: 15px;
 }
 
 @media (min-width: 768px) {
 	.sidebar {
-		float: right;
+		float: left;
 		width: 20%;
 	}
 }
@@ -346,4 +348,8 @@ a:focus{
 
 .black {
 	background-color: #1c1c1c;
+}
+
+.beige{
+	background-color: #EAFFFF;
 }

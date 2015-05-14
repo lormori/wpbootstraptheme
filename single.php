@@ -4,7 +4,7 @@
 <div class="container">
 
 <div class = "row">
-	<div class="sidebar">
+	<div class="sidebar beige">
 		<div>
 			<button type="button" class="btn-default pull-left" data-toggle="collapse" data-target="#side">
 				<span class="sr-only">Toggle navigation</span>
@@ -15,7 +15,7 @@
 		</div>
 		<br />
 		<br />
-		<div class="collapse" id="side">	
+		<div class="navbar-collapse nav-collapse collapse navbar-ex1-collapse" id="side">	
 			<?php get_sidebar(); ?>
 		</div>
 	</div>

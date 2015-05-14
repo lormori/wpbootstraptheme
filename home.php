@@ -7,18 +7,18 @@
 
 <div class = "row">
 	<!-- SIDEBAR -->
-	<div class="sidebar">
+	<div class="sidebar beige">
 		<div>
 			<button type="button" class="btn-default pull-left" data-toggle="collapse" data-target="#side">
 				<span class="sr-only">Toggle navigation</span>
 				<p>
-				Sidebar <i class="fa fa-level-down"></i>
+				Navigate <i class="fa fa-level-down"></i>
 				</p>
 			</button>
 		</div>
 		<br />
 		<br />
-		<div class="collapse" id="side">	
+		<div class="navbar-collapse nav-collapse collapse navbar-ex1-collapse" id="side">	
 			<?php get_sidebar(); ?>
 		</div>
 	</div>
