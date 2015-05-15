@@ -7,15 +7,14 @@
 			<div class="row" style="text-transform: uppercase">
 				
 					<div class="col-lg-4">
-						<p><font size="3">Lorenzo Mori&trade;</font></p>
+						<p><font size="3">Lorenzo Mori-</font></p>
 						<p> <font size="1">
-							Hello, this is Lorenzo, hope you enjoy your stay on my website. Please have a look around at my portfolio pieces and my blog.
+							A dear friend of mine one day told me that Mori in Japanese means Forest/Woods. 
+							I really like go hiking in the mountains where the forest surrounds you, it gives me a sense of peace. So I took it as a good sign.
 						</font></p>
 					</div>
-					<div class="col-lg-4">
-						<center>
-						<p><font size="5"> 森 </font></p>
-						</center>
+					<div class="col-lg-4">			
+						<p><font size="1"> The Kanji for Forest is 森, it is composed of 木 repeated three times to suggest a large number of trees such as one would find in a forest.</font></p>
 					</div>
 					<div class="col-lg-4">
 						<p align="center">

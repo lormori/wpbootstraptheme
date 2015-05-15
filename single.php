@@ -9,7 +9,7 @@
 			<button type="button" class="btn-default pull-left" data-toggle="collapse" data-target="#side">
 				<span class="sr-only">Toggle navigation</span>
 				<p>
-				Sidebar <i class="fa fa-level-down"></i>
+				Navigate <i class="fa fa-level-down"></i>
 				</p>
 			</button>
 		</div>
