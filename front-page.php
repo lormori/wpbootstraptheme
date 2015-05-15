@@ -16,7 +16,7 @@
 		<div class="row">
 			<div class="col-sm-6 col-homepage red on-click">
 				
-				<span class="covering-link"></span>
+				<a href ="/about"><span class="covering-link"></span></a>
 				<h2>WELCOME</h2>
 				<?php echo wp_get_attachment_image( 331, 'full' ); ?>
 			</div>
