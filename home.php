@@ -36,7 +36,7 @@
 				// that goes in cycle and repeat itself every 6 posts. Every post will get one color
 				
 				// define main class
-				echo '<div class="col-sm-6 blog-entry ';
+				echo '<div class="col-sm-6 blog-entry on-click ';
 				
 				// define color
 				if(($count % 6) == 0)

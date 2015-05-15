@@ -43,6 +43,9 @@ a:focus{
 .footer-divider a:hover {
 	color: #ffffff;
 }
+.footer-divider a:focus {
+	color: #ffffff;
+}
 .footer-divider h1 {
 	color: #999999;
 }
@@ -351,5 +354,10 @@ a:focus{
 }
 
 .beige{
+	background-color: #EAFFFF;
+}
+
+.on-click:active
+{
 	background-color: #EAFFFF;
 }

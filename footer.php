@@ -6,7 +6,7 @@
 		<div class="footer-divider black">
 			<div class="row" style="text-transform: uppercase">
 				
-					<div class="col-lg-4">
+					<div class="col-lg-4 on-click">
 						<p><font size="3">Lorenzo Mori-</font></p>
 						<p> <font size="1">
 							A dear friend of mine one day told me that Mori in Japanese means Forest/Woods. 
