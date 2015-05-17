@@ -15,7 +15,7 @@ h1,h2,h3 {
 	color: #FFFFFF;
 }
 
-p {
+p, li, ul  {
 	font-family: 'Open Sans', sans-serif;
 	font-weight : 400;
 	letter-spacing: 1px;
@@ -57,14 +57,14 @@ a:focus{
 }
 
 /* BLOG TEXT COLORS */
-.blog p {
+.blog p, li, ul {
 	color: #1d1d1d;
 }
 .blog a,a:hover,a:focus {
 	color: #1d1d1d;
 	font-weight: bolder;
 }
-.sidebar p{
+.sidebar p, li, ul{
 	color: #1d1d1d;
 }
 .sidebar a,a:hover,a:focus{
@@ -75,7 +75,7 @@ a:focus{
 }
 
 /* PAGE TEXT COLORS */
-.page p {
+.page p, li, ul {
 	color: #1d1d1d;
 }
 .page a,a:hover,a:focus {

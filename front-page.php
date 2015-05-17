@@ -73,8 +73,8 @@
 				<p>Static stuff, here I talk a little bit of myself</p>
 				<button class="btn btn-default"><p>More <i class="fa fa-chevron-circle-right"></i></p></button>-->
 				<!-- new layout-->
-				<a href ="/about"><span class="covering-link"></span></a>
-				<h2>HELLO</h2>
+				<a href ="/cv"><span class="covering-link"></span></a>
+				<h2>Curriculum Vitae</h2>
 				<?php echo wp_get_attachment_image( 328, 'full' ); ?>
 			</div>
 		</div>
