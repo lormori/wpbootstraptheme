@@ -17,8 +17,8 @@
 			<div class="col-sm-6 col-homepage red on-click">
 				
 				<a href ="/about"><span class="covering-link"></span></a>
-				<h2>WELCOME</h2>
-				<?php echo wp_get_attachment_image( 331, 'full' ); ?>
+				<h2>ABOUT</h2>
+				<?php echo wp_get_attachment_image( 454, 'full' ); ?>
 			</div>
 		
 			<div class="col-sm-6 col-homepage blue on-click">
@@ -44,7 +44,7 @@
 				<!-- new layout -->
 				<a href ="/portfolio"><span class="covering-link"></span></a>
 				<h2>Portfolio</h2>
-				<?php echo wp_get_attachment_image( 330, 'full' ); ?> 
+				<?php echo wp_get_attachment_image( 452, 'full' ); ?> 
 			</div>
 			
 			<div class="col-sm-6 col-homepage green on-click">
@@ -61,7 +61,7 @@
 				  
 				<a href = "/blog"><span class="covering-link"></span></a>
 				<h2>Blog</h2>
-				<?php echo wp_get_attachment_image( 329, 'full' ); ?> 
+				<?php echo wp_get_attachment_image( 451, 'full' ); ?> 
 				  
 			</div>
 			
@@ -75,7 +75,7 @@
 				<!-- new layout-->
 				<a href ="/cv"><span class="covering-link"></span></a>
 				<h2>Curriculum Vitae</h2>
-				<?php echo wp_get_attachment_image( 328, 'full' ); ?>
+				<?php echo wp_get_attachment_image( 453, 'full' ); ?>
 			</div>
 		</div>
 	

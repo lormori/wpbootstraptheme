@@ -90,32 +90,71 @@ a:focus{
 	padding-bottom: 15px;
 }
 
-.navbar {
-	border-style: solid;
-	border-width: 0px;
-	border-radius: 0px;
-	background-color: #1d1d1d;
-	margin-right: 16.5%;
-	margin-left: 16.5%;
-	margin-bottom: 20px;
-	padding-top: 25px;
-	padding-bottom: 25px;
-	
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	font-weight: 400;
-}
-
 .jumbotron {
 	margin: 0px;
 	background-color: #06B3DD;
 }
 
+.navbar {
+	border-style: solid;
+	border-width: 0px;
+	border-radius: 0px;
+	background-color: #1d1d1d;
+	margin-bottom: 20px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 400;
+}
 .container {
 	background-image: none;
 	background-color: inherit;
-	margin-right: 16.5%;
-	margin-left: 16.5%;
+}
+
+.footer-divider {
+	background-image: none;
+	background-color: #E0EDD7;
+	margin-top: 20px;
+	padding:50px 20px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+@media (min-width: 768px) {
+	.navbar {
+		border-style: solid;
+		border-width: 0px;
+		border-radius: 0px;
+		background-color: #1d1d1d;
+		margin-right: 16.5%;
+		margin-left: 16.5%;
+		margin-bottom: 20px;
+		padding-top: 25px;
+		padding-bottom: 25px;
+		
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		font-weight: 400;
+	}
+
+	.container {
+		background-image: none;
+		background-color: inherit;
+		margin-right: 16.5%;
+		margin-left: 16.5%;
+	}
+
+	.footer-divider {
+		background-image: none;
+		background-color: #E0EDD7;
+		margin-right : 16.5%;
+		margin-left : 16.5%;
+		margin-top: 20px;
+		padding:50px 20px;
+		font-size: 20px;
+		font-weight: 600;
+	}
 }
 
 .blog {
@@ -194,17 +233,6 @@ a:focus{
 		float: left;
 		width: 20%;
 	}
-}
-
-.footer-divider {
-	background-image: none;
-	background-color: #E0EDD7;
-	margin-right : 16.5%;
-	margin-left : 16.5%;
-	margin-top: 20px;
-	padding:50px 20px;
-	font-size: 20px;
-	font-weight: 600;
 }
 
 .small-divider {
