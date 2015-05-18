@@ -353,6 +353,12 @@ a:focus{
   background-image: none;
 }
 
+.covering-link:active
+{
+	opacity:0.5;
+	background-color: #EAFFFF;
+}
+
 /* youtube videos! */
 .vid {
     position: relative;
@@ -399,10 +405,5 @@ a:focus{
 }
 
 .beige{
-	background-color: #EAFFFF;
-}
-
-.on-click:active
-{
 	background-color: #EAFFFF;
 }

@@ -22,7 +22,7 @@ Template Name: Portfolio Template
 						$title = $page -> post_title;
 						$excerpt = $page -> post_excerpt;
 						$titlelink = '<a href="' . get_page_link($page -> ID) . ' "> <span class="covering-link"></span></a>';
-						echo '<div class="col-sm-4 col-portfolio on-click">';
+						echo '<div class="col-sm-4 col-portfolio">';
 						echo $titlelink;
 						echo '<h2><p>' . $title;
 						//echo '<p>' . $excerpt . '</p>';
